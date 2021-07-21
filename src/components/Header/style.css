@@ -1,0 +1,28 @@
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    color:white;
+    padding: 0 10px 5px 10px;
+
+}
+
+.header h1 {
+    width:180px;
+    text-align:right;
+    margin:0 0 0 auto;
+    transform: translateX(-20px);
+}
+
+.fk_div{
+    height:50px;
+    width:calc(100vw - 200px);
+    position:absolute;
+}
+
+.nav_black {
+    background-color:rgb(20,20,20);
+    opacity:75%;
+    /* or bg color black for the nav menu and samo */
+}

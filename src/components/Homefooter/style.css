@@ -1,0 +1,25 @@
+.home_footer{
+    width:100vw;
+    background-color:black;
+    padding-bottom: 100px;
+
+}
+
+.home_footer h2{
+    font-size:2rem;
+    color:white;
+    text-align:center;
+}
+
+.home_footer_cards{
+    display:flex;
+    flex-wrap: wrap;
+    width:100vw;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:500px){
+    .home_footer h2{
+        font-size:1.5rem;
+    }
+}

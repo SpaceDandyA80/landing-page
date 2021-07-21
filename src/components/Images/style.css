@@ -1,0 +1,76 @@
+.image_gallery{
+    width:100vw;
+    padding: 20px 0;
+    background:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+
+}
+
+.image_gallery h3{
+    z-index:2;
+    font-size: 2rem;
+}
+
+.gallery_cont{
+    width: 1330px;
+    background: black;
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:0px 0px;
+    grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . ." ;
+}
+.gallery_cont img{
+    object-fit: cover;
+    width: 400px;
+    margin: 20px;
+    transition: 0.3s ease;
+}
+
+.gallery_cont::-webkit-scrollbar{
+    display: none;
+}
+
+.gallery_cont img:hover {
+    transform: scale(1.2);
+}
+
+@media(max-width:1200px){
+    .gallery_cont{
+        display:flex;
+        width: 100vw;
+        flex-wrap:wrap;
+
+    }
+    .gallery_cont img {
+        width:300px;
+    }
+}
+
+@media (max-width: 500px){
+    .gallery_cont{
+        justify-content: left;
+        flex-wrap:nowrap;
+        overflow-x: scroll;
+    }
+    .image_gallery h3{
+        font-size: 1.5rem;
+    }
+    .gallery_cont img{
+        width:300px;
+    }
+}
+
+@media (max-width:310px){
+    .gallery_cont img{
+        width:200px;
+    }
+}

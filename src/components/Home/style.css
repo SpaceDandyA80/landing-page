@@ -1,0 +1,62 @@
+.home{
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.home_text{
+    width:100vw;
+    min-height: 100vh;
+    background-image: url("/src/Zphoto/still.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 50px 10px;
+}
+
+.about_me_info{
+    color:white;
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+
+}
+
+.about_me_info h1{
+    font-size: 3.3rem;
+}
+
+.about_me_text {
+    width:50vw;
+}
+
+#browse_projects{
+    padding:20px;
+    background:transparent;
+    border:5px solid white;
+    color:white;
+    font-size:1rem;
+    font-weight:800 ;
+    letter-spacing:1px;
+    margin-top:30px;
+    transition: 0.3s ease;
+}
+
+#browse_projects:hover{
+    transform: translateY(-20px);
+}
+
+@media(max-width:500px){
+    .home_text{
+        padding-left:10px;
+    }
+    .about_me_info{
+        left:10px;
+    }
+    .about_me_info h1{
+        font-size:2rem;
+    }
+    .about_me_text {
+        width:85vw;
+        font-size:small;
+    }
+}
