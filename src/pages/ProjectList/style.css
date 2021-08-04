@@ -1,0 +1,32 @@
+.project_list{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.project_card{
+    margin:10px 3px;
+    padding:10px;
+    color: white;
+    transition: .3s ease;
+    cursor:pointer;
+
+}
+
+.project_card:hover{
+    transform:translateY(-40px);
+}
+.project_card img{
+    width:500px;
+}
+
+@media(max-width:500px){
+    .project_card img{
+        width:300px;
+    }
+    .project_card:hover{
+        transform:translateY(30px);
+    }
+}

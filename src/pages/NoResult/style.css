@@ -1,0 +1,36 @@
+.no_results{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    color: white;
+    margin: 20px 0 10px 0;
+
+}
+
+.no_results p {
+    transform: translateY(60px);
+    font-size: 1.2rem;
+}
+
+.no_results img {
+    width:700px;
+}
+
+@media (max-width: 700px){
+.no_results img{
+    width:500px;
+}
+.no_results p{
+    font-size:.8rem;
+}
+}
+@media (max-width: 500px){
+    .no_results img{
+        width:280px;
+    }
+    .no_results p{
+        font-size:.6rem;
+    }
+    }

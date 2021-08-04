@@ -1,0 +1,62 @@
+.expand_card {
+    overflow-y: scroll;
+    z-index:10;
+    width:calc(30vw);
+    height: 55vh;
+}
+
+.expand_card img{
+    width:31vw;
+}
+@media (max-width:650px){
+    .expand_card{
+        width:calc(80vw);
+    }
+    .expand_card img{
+        width:80vw;
+    }
+}
+.expand_card::-webkit-scrollbar{
+    display:none;
+}
+.emt_card{
+    height:50px;
+    width:100px;
+}
+.expand_card a{
+    letter-spacing:1px;
+    cursor:pointer;
+    padding: 10px 20px; 
+    position: absolute;
+    margin:10px;
+    right:10px;
+    background:black;
+    color: rgba(255,255,255,.7);
+    border-radius:30px;
+    border:none;
+    transition: .2s ease-in-out;
+    text-decoration: none;
+}
+.expand_card a:hover{
+    background: red;
+    color:white;
+
+}
+
+.close_btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px;
+    color:rgba(255,255,255,1);
+    background: black;
+    
+    height:40px;
+    width:40px;
+    z-index: 50;
+    transition: .2s ease;
+}
+.close_btn:hover{
+    background:red;
+    color:rgba(255,255,255,.7)
+}

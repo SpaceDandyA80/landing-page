@@ -6,6 +6,7 @@ import LibraryBooksIcon from "@material-ui/icons/LibraryBooks";
 import InfoIcon from "@material-ui/icons/Info";
 import ContactsIcon from "@material-ui/icons/Contacts";
 import { Link } from "react-router-dom";
+//navbar functionality
 
 function Navbar() {
   const [navbarState, setNavbarState] = useState(false);
