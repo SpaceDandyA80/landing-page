@@ -1,62 +1,106 @@
 .expand_card {
     overflow-y: scroll;
+    border-radius: 7px;
     z-index:10;
-    width:calc(30vw);
-    height: 55vh;
+    width:35vw;
+    height:60vh;
 }
 
-.expand_card img{
-    width:31vw;
+.card_txt {
+    padding:15px;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    height:48%;
+    background: rgb(172,60,90);
+    background: linear-gradient(120deg, rgba(172,60,90,0.9108018207282913) 0%, rgba(115,56,154,1) 100%);
+
 }
-@media (max-width:650px){
-    .expand_card{
-        width:calc(80vw);
-    }
-    .expand_card img{
-        width:80vw;
-    }
+.card_txt h2 {
+    color: rgba(255, 255, 255, 0.363);
+    font-size:28px;
+    text-align: center;
 }
-.expand_card::-webkit-scrollbar{
+.card_txt p{
+    color:rgb(199, 193, 186);
+    font-size:20px;
+}
+.expand_btn {
+    display:flex;
+    align-items: center;
+}
+
+.expand_card img {
+    width:35vw;
+    justify-content: center;
+
+}
+
+.expand_card::-webkit-scrollbar {
     display:none;
 }
-.emt_card{
+.emt_card {
     height:50px;
     width:100px;
 }
-.expand_card a{
+.expand_card a {
+    width:110px;
     letter-spacing:1px;
-    cursor:pointer;
     padding: 10px 20px; 
-    position: absolute;
+    position:sticky;
     margin:10px;
-    right:10px;
+    left:25vw;
     background:black;
     color: rgba(255,255,255,.7);
     border-radius:30px;
     border:none;
-    transition: .2s ease-in-out;
     text-decoration: none;
+    
 }
-.expand_card a:hover{
-    background: red;
-    color:white;
-
+.expand_card a:hover {
+    background: linear-gradient(45deg, rgba(115,56,154,1) 0%, rgba(172,60,90,0.9108018207282913) 100%);
+    transform: scale(1.08);
+    font-weight: 525;
 }
-
-.close_btn{
+    
+.close_btn {
     position: absolute;
     right: 0;
     top: 0;
     padding: 5px;
     color:rgba(255,255,255,1);
     background: black;
-    
     height:40px;
     width:40px;
-    z-index: 50;
-    transition: .2s ease;
 }
-.close_btn:hover{
-    background:red;
+.close_btn:hover {
+    background: linear-gradient(120deg, rgba(172,60,90,0.9108018207282913) 0%, rgba(115,56,154,1) 100%);
     color:rgba(255,255,255,.7)
+}
+
+@media(max-width: 1700px){
+    .card_txt{
+        height:65%;
+    }
+}
+
+@media (max-width:1200px) {
+    .expand_card {
+       width:50vw;
+        
+    }
+    .expand_card img{
+        width:50vw
+    }
+    .card_txt{
+        height:100%;
+    }
+}
+
+@media (max-width:650px) {
+    .expand_card {
+        width:80vw;
+    }
+    .expand_card img {
+        width:80vw;
+    }
 }

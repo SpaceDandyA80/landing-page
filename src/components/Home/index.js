@@ -10,21 +10,20 @@ function Home() {
       <div className="home_text">
         <div className="about_me_info">
           <p>
-            <span>Portfolio</span>
+            <span>Insight</span>
           </p>
-          <h1> Congregation of coding skills </h1>
+          <h1>Collection of Code</h1>
           <p className="about_me_text">
-            This home page will demonstrate what I have accomplished so far
+            A demonstration of my ever growing experience
           </p>
           <Link to="/projects">
-          <button id="browse_projects">BROWSE MY PROJECTS</button>
-            </Link>
+            <button id="browse_projects">BROWSE</button>
+          </Link>
         </div>
       </div>
 
       <div className="empty"></div>
       <ImageGallery />
-      <div className="empty"></div>
       <Homefooter />
     </div>
   );

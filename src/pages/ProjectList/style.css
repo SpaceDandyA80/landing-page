@@ -1,5 +1,6 @@
 .project_list{
     display: flex;
+    border-radius: 5px;
     justify-content: center;
     margin-top: 20px;
     flex-wrap: wrap;
@@ -7,6 +8,7 @@
 }
 
 .project_card{
+
     margin:10px 3px;
     padding:10px;
     color: white;
@@ -16,10 +18,11 @@
 }
 
 .project_card:hover{
-    transform:translateY(-40px);
+    transform: scale(1.08);
 }
 .project_card img{
     width:500px;
+    border-radius: 5px;
 }
 
 @media(max-width:500px){
@@ -27,6 +30,6 @@
         width:300px;
     }
     .project_card:hover{
-        transform:translateY(30px);
+        transform: scale(1.08);
     }
 }

@@ -33,12 +33,13 @@
     padding:20px;
     background:transparent;
     border:5px solid white;
+    border-radius: 5px;
     color:white;
     font-size:1rem;
     font-weight:800 ;
     letter-spacing:1px;
     margin-top:30px;
-    transition: 0.3s ease;
+    transition: 0.7s ease;
 }
 
 #browse_projects:hover{

@@ -6,8 +6,13 @@ function Contact() {
   const [state, handleSubmit] = useForm("xoqykdwr");
   if (state.succeeded) {
     <div className="contact">
-      <img height="100" width="100" src="" alt="" />
-      <p>Thanks for joining!</p>;
+      <img
+        height="100"
+        width="100"
+        src="https://i.imgur.com/6Nn4ucD.gif"
+        alt="menacing japanese character"
+      />
+      <p>Oh Ho! you have sumbitted information </p>;
     </div>;
   }
   return (

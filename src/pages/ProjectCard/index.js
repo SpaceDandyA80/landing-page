@@ -1,10 +1,11 @@
 import React from "react";
 import "./style.css";
 import CancelIcon from "@material-ui/icons/Cancel";
+import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 
 const style = {
   position: "fixed",
-  padding: "15px",
+  // padding: "0 15px 15px 0",
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
@@ -18,19 +19,21 @@ const margin = {
 function ProjectCard({ closeCard, cardDetails }) {
   return (
     <div className="expand_card" style={style}>
-      <CancelIcon onClick={closeCard} className="close_btn" fontSize="small" />
+      <CancelIcon onClick={closeCard} className="close_btn" fontSize="medium" />
       <img src={cardDetails[0]} alt={cardDetails[1]} />
-      <h2 style={margin}> {cardDetails[1]}</h2>
-      <p style={margin}>{cardDetails[2]}</p>
       <div className="emt_card"></div>
-      <a
-        href={cardDetails[3]}
-        className="expand_btn"
-        target="_blank"
-        rel="noreferrer"
-      >
-        project
-      </a>
+      <div className="card_txt">
+        <h2 style={margin}> {cardDetails[1]}</h2>
+        <p style={margin}>{cardDetails[2]}</p>
+        <a
+          className="expand_btn"
+          href={cardDetails[3]}
+          target="_blank"
+          rel="noreferrer"
+        >
+          project <ArrowForwardIosIcon />
+        </a>
+      </div>
     </div>
   );
 }
