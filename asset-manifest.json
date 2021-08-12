@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/landing-page/static/css/main.84109ec4.chunk.css",
+    "main.js": "/landing-page/static/js/main.c19dd825.chunk.js",
+    "main.js.map": "/landing-page/static/js/main.c19dd825.chunk.js.map",
+    "runtime-main.js": "/landing-page/static/js/runtime-main.08b4cae2.js",
+    "runtime-main.js.map": "/landing-page/static/js/runtime-main.08b4cae2.js.map",
+    "static/js/2.0f16a779.chunk.js": "/landing-page/static/js/2.0f16a779.chunk.js",
+    "static/js/2.0f16a779.chunk.js.map": "/landing-page/static/js/2.0f16a779.chunk.js.map",
+    "static/js/3.ae7b13ad.chunk.js": "/landing-page/static/js/3.ae7b13ad.chunk.js",
+    "static/js/3.ae7b13ad.chunk.js.map": "/landing-page/static/js/3.ae7b13ad.chunk.js.map",
+    "index.html": "/landing-page/index.html",
+    "static/css/main.84109ec4.chunk.css.map": "/landing-page/static/css/main.84109ec4.chunk.css.map",
+    "static/js/2.0f16a779.chunk.js.LICENSE.txt": "/landing-page/static/js/2.0f16a779.chunk.js.LICENSE.txt",
+    "static/media/burgerCounter.jpg": "/landing-page/static/media/burgerCounter.9921a717.jpg",
+    "static/media/citySearch.png": "/landing-page/static/media/citySearch.27896d5e.png",
+    "static/media/password.jpg": "/landing-page/static/media/password.770030c4.jpg",
+    "static/media/portfolioLand.jpg": "/landing-page/static/media/portfolioLand.4f8f348c.jpg",
+    "static/media/scene.jpg": "/landing-page/static/media/scene.09b92c40.jpg",
+    "static/media/spotify.jpg": "/landing-page/static/media/spotify.a1bde378.jpg",
+    "static/media/style.css": "/landing-page/static/media/still.9eb19596.jpg",
+    "static/media/weatherDash.jpg": "/landing-page/static/media/weatherDash.2aec3d25.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.08b4cae2.js",
+    "static/js/2.0f16a779.chunk.js",
+    "static/css/main.84109ec4.chunk.css",
+    "static/js/main.c19dd825.chunk.js"
+  ]
+}
