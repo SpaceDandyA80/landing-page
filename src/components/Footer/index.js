@@ -37,7 +37,6 @@ function Footer() {
           </a>
         </div>
       </div>
-
       <br />
       <br />
       <p id="footer_copyright">&copy; project page&nbsp; {year}</p>
