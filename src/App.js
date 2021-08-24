@@ -10,12 +10,12 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <Router basename="/landing-page/">
+    <Router basename="/">
       <div className="App">
         <Header />
         <Navbar />
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/home" component={Home} />
 
           <Route exact path="/About" component={About} />
 
