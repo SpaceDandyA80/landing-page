@@ -29,7 +29,7 @@ function Navbar() {
       <div className={navbarState ? "nav_cont nav_open" : "nav_cont nav_close"}>
         <div className="nav_items">
           <ul>
-            <Link to="/" style={linkStyle}>
+            <Link to="/home" style={linkStyle}>
               <HomeIcon />
               <li>Home</li>
             </Link>
