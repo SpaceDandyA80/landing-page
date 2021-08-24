@@ -6,7 +6,7 @@ import Footer from "./components/Footer/index.js";
 import About from "./pages/About/index.js";
 import Contact from "./pages/Contact/index.js";
 import Projects from "./pages/Projects/index.js";
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import { BrowserRouter as Router, Route, HashRouter } from "react-router-dom";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <div className="App">
         <Header />
         <Navbar />
-        <Switch>
+        <HashRouter>
           <Route exact path="/" component={Home} />
 
           <Route exact path="/About" component={About} />
@@ -22,7 +22,7 @@ function App() {
           <Route exact path="/Contact" component={Contact} />
 
           <Route exact path="/Projects" component={Projects} />
-        </Switch>
+        </HashRouter>
 
         <Footer />
       </div>
