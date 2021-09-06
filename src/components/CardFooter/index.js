@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./style.css";
 
 function CardFooter({ title, content, img, color }) {

@@ -5,7 +5,7 @@
     display:flex;
     align-items: center;
     justify-content: center;
-    position: relative;
+    /* position: relative; */
 }
 .leftArrow {
     height:60px;

@@ -10,18 +10,18 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <Router basename="/">
+    <Router basename="/landing-page">
       <div className="App">
         <Header />
         <Navbar />
         <Switch>
           <Route exact path="/home" component={Home} />
 
-          <Route exact path="/About" component={About} />
+          <Route path="/About" component={About} />
 
-          <Route exact path="/Contact" component={Contact} />
+          <Route path="/Contact" component={Contact} />
 
-          <Route exact path="/Projects" component={Projects} />
+          <Route path="/Projects" component={Projects} />
         </Switch>
 
         <Footer />
