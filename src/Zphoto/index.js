@@ -7,5 +7,6 @@ const IMAGES = {
   oldLanding: require("../Zphoto/portfolioLand.jpg").default,
   newScene: require("../Zphoto/scene.jpg").default,
   theArrow: require("../Zphoto/arrow.png").default,
+  blogApp: require("../Zphoto/blogApp.jpg").default,
 };
 export default IMAGES;

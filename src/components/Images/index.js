@@ -8,11 +8,11 @@ function ImageGallery() {
       <h3>The instant project deployment!</h3>
       <div className="gallery_cont">
         <a
-          href="https://spacedandya80.github.io/project1/jobcitysearch.html"
+          href="https://spacedandya80.github.io/blogstack/"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={IMAGES.citySearch} alt="city project" />
+          <img src={IMAGES.blogApp} alt="social media replica" />
         </a>
 
         <a

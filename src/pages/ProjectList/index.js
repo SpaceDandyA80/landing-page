@@ -13,7 +13,8 @@ function ProjectList({ projects_shown }) {
 
   return (
     <div className="project_list">
-      {/* projects are grabbed from the ProjectList {project_shown} and are ampped over and displayed throughtout th card accordingly */}
+      {/* mapped over from projectM and displayed over on the card */}
+      {/* projects are grabbed from the ProjectList {project_shown} and are mapped over and displayed throughtout th card accordingly */}
       {projects_shown.map((projects) => (
         <div
           className="project_card"
@@ -34,6 +35,7 @@ function ProjectList({ projects_shown }) {
       ))}
       <div>
         {clickstate ? (
+          // displaying here because its passed in from project card and stated there
           <ProjectCard closeCard={closeCard} cardDetails={projectcard} />
         ) : (
           ""
