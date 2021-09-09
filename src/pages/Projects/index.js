@@ -12,7 +12,7 @@ projects_shown[0] = {
   projectName: "Blog App",
   img: [IMAGES.blogApp],
   projectInfo:
-    "An App created with react while using various dependencies to push users that are created on this App. username, email and password is sent to a database so the user can register and login and create blog posts to create a replica of social media.",
+    "This App created with react while using various dependencies to push users that are created on this App. username, email and password is sent to a database so the user can register and login and create blog posts to create a replica of social media.",
   link: "https://spacedandya80.github.io/blogstack/",
 };
 projects_shown[1] = {
